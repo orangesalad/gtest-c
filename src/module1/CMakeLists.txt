@@ -6,4 +6,4 @@ SET(MODULE1_SOURCES
 
 add_library(module1 ${MODULE1_SOURCES})
 
-target_include_directories(module1 PUBLIC ${CMAKE_SOURCE_DIR}/include/module1)
+target_include_directories(module1 PUBLIC include)
